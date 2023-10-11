@@ -17,7 +17,7 @@ body {
   max-width: 300px; 
 }
 
-.product-card img {
+.img {
 display: flex;
 flex-direction: row;
 justify-content: center;
