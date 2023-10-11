@@ -1,37 +1,56 @@
-/*
- * CSS File for the solution
- * Midterm Exam
- * You got this!
- */
-
-/*
- * COLOUR PALETTE
- *
- * YOU DO NOT NEED TO USE THESE COLOURS, BUT YOU CAN IF YOU WANT TO
- *   #ede0d4
- *   #e6ccb2
- *   #ddb892
- *   #b08968
- *   #7f5539
- *   #9c6644
- *
- * https://coolors.co/palette/ede0d4-e6ccb2-ddb892-b08968-7f5539-9c6644
- */
-
-/*
- * The width of my Product Card in the screenshot was 400px
- * You can use that width or set your own width
- */
-
-/*
- * HINT: For making image fill the container use object-fit:cover property:
- *  https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
- */
-
-html {
-  font-size: 1.0rem;
-}
-
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, ;
+  background-color: saddlebrown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50rem;
+  margin: 0;
 }
+
+.card {
+  background-color: #fff;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  max-width: 300px; 
+}
+
+.product-card img {
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+align-items:flex-start;
+  
+}
+
+.details {
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.description {
+  margin: 1rem ;
+}
+
+.price {
+
+  font-size: 1.5rem;
+}
+
+.purchase {
+  display: inline-block;
+  margin-top: 25px;
+  background-color: sandybrown;
+  color: #fff;
+  padding: 1rem 5rem;
+  text-decoration: none;
+  border-radius: 5rem;
+}
+
